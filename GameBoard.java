@@ -14,6 +14,7 @@ public class GameBoard {
     }
     
     public void upgrade() { 
+        
         point += 2; 
     }
     public GameBoard(){
