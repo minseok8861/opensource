@@ -1,5 +1,6 @@
 package Opensource;
 
+<<<<<<< HEAD
 import MatchingGame.BoardWriter;
 import MatchingGame.GameBoard;
 import MatchingGame.GameController;
@@ -15,3 +16,10 @@ public class MatchingGame {
     }
 
 }
+=======
+public class MatchingGame {
+
+    public static void main(String[] args) {
+    }
+}
+>>>>>>> 847af0b3ff279ac496873b2eefb521b3c26d5a2f
