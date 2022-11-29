@@ -1,6 +1,5 @@
 import javax.swing.JOptionPane;
 
-
 public class Reader {
     public int readInput() {
         String input = JOptionPane.showInputDialog("번호를 선택하세요.");
