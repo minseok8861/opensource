@@ -10,6 +10,7 @@ public class Reader {
             number = Integer.parseInt(input);
         }
         return number;
+
     }
 
 }
