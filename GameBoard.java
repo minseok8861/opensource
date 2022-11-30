@@ -1,6 +1,7 @@
 import java.awt.Color;
 import java.util.Random;
-public class GameBoard{
+public class GameBoard {
+    
     private Cell[][] square;
     private int point;
     
@@ -13,6 +14,7 @@ public class GameBoard{
     }
     
     public void upgrade() { 
+        
         point += 2; 
     }
     public GameBoard(){
