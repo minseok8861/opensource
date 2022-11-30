@@ -16,7 +16,18 @@ public class GameBoard{
         point += 2; 
     }
     public GameBoard(){
-
+        square = new Cell[4][4];
+        Color[] colors = {Color.BLUE, Color.CYAN, Color.PINK, Color.RED, 
+                          Color.GRAY, Color.GREEN, Color.MAGENTA, Color.ORANGE};
+        Cell[] twins = createTwinCells(colors);
+        makeSquare(shuffle(twins));
     }
-
+    private void makeSquare(Cell[] cells) {
+    }
+    private Cell[] createTwinCells(Color[] cs) {
+        return twins;
+    }
+    private Cell[] shuffle(Cell[] twins) {
+        return twins;
+    }
 }
