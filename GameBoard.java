@@ -12,7 +12,7 @@ public class GameBoard {
     public int point() { 
         return point; 
     }
-    
+    // 열린 칸 증가
     public void upgrade() { 
         point += 2; 
     }
