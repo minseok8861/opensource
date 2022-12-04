@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 package Opensource;
 
 import MatchingGame.BoardWriter;
@@ -5,6 +7,7 @@ import MatchingGame.GameBoard;
 import MatchingGame.GameController;
 import MatchingGame.Reader;
 
+>>>>>>> 6f83ddbb6c981f96cbeac1508cc2c69f5e4e47c2
 public class MatchingGame {
 
     public static void main(String[] args) {
