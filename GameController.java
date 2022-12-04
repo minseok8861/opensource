@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package Opensource;
+
+>>>>>>> 6f83ddbb6c981f96cbeac1508cc2c69f5e4e47c2
 public class GameController {
     
     private GameBoard board;
@@ -11,6 +16,7 @@ public class GameController {
     }
     
     public void play() {
+<<<<<<< HEAD
         Cell[][] square = board.square();
         int opened_cell = 16;
         while(opened_cell != 0) {
@@ -40,6 +46,11 @@ public class GameController {
     }
     
     /** delay - how_long millisecond 동안 실행 정지  */
+=======
+        
+    }
+    
+>>>>>>> 6f83ddbb6c981f96cbeac1508cc2c69f5e4e47c2
     private void delay(int how_long) { 
         try { Thread.sleep(how_long); }
         catch (InterruptedException e) { }
