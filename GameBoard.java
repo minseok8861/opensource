@@ -4,19 +4,19 @@ public class GameBoard {
     
     private Cell[][] square;
     private int point;
-    // 게임보드
+
     public Cell[][] square() { 
         return square; 
     }
-    // 열린 칸의 개수
+
     public int point() { 
         return point; 
     }
-    // 열린 칸 증가
+
     public void upgrade() { 
         point += 2; 
     }
-    //보드 만들기
+
     public GameBoard(){
         square = new Cell[4][4];
         Color[] colors = {Color.BLUE, Color.CYAN, Color.PINK, Color.RED, 
@@ -24,7 +24,7 @@ public class GameBoard {
         Cell[] twins = createTwinCells(colors);
         makeSquare(shuffle(twins));
     }
-    // 2차원만들기
+
     private void makeSquare(Cell[] cells) {
         int index = 0;
         for (int i = 0; i < 4; i++) 
@@ -33,7 +33,7 @@ public class GameBoard {
                 index += 1;
             }
     }
-    // 2개씩 생성(1차원)
+
     private Cell[] createTwinCells(Color[] cs) {
         Cell[] twins = new Cell[cs.length*2];
         int i = 0; 
@@ -45,7 +45,7 @@ public class GameBoard {
         }
         return twins;
     }
-    // 섞기
+
     private Cell[] shuffle(Cell[] twins) {
         int index;
         Cell temp;
